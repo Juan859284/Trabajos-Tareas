@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #128c7e;
+  --primary-dark: #075e54;
+  --secondary-color: #25d366;
+  --background-light: #f0f2f5;
+  --background-dark: #111b21;
+  --chat-background: #e5ddd5;
+  --message-me: #d9fdd3;
+  --message-other: #ffffff;
+  --text-primary: #3b4a54;
+  --text-secondary: #667781;
+  --border-color: #d1d7db;
+  --header-height: 60px;
+  --input-height: 50px;
+  --sidebar-width: 30%;
+  --transition-speed: 0.3s;
+}

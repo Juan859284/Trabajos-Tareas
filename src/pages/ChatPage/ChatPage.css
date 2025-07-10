@@ -1,0 +1,44 @@
+.chat-full-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.messages-container {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNy8xMy8xM6c9jD8AAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAAAXElEQVQ4y2P4//8/Ay0xw6gFg9cCBiYmJgY6WMDw////DLS0YNRpQ9dpjIyMDLS0gIGZmZk2FjAzMzMw0MMCRkZGRtpYwMLCwsBIDwtYWFhoYwErKysDIz0sAAB+6Q0jTbq0cAAAAABJRU5ErkJggg==');
+  background-color: var(--chat-background);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 851px) {
+  .chat-full-container {
+    display: flex;
+  }
+  
+  .chat-container {
+    width: 70%;
+  }
+  
+  .chat-list-container {
+    width: 30%;
+    display: block !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .chat-container {
+    width: 100%;
+  }
+}

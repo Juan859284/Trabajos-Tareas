@@ -1,0 +1,33 @@
+.message-input-form {
+  padding: 10px;
+  background-color: #f0f2f5;
+  border-top: 1px solid var(--border-color);
+}
+
+.input-container {
+  display: flex;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.input-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 1rem;
+  background: transparent;
+}
+
+.input-container button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition: color 0.2s;
+}
+
+.input-container button:hover {
+  color: var(--primary-color);
+}

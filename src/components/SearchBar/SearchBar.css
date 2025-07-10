@@ -1,0 +1,28 @@
+.search-bar {
+  padding: 8px 10px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px 15px; 
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.search-bar {
+  width: 100%; 
+  max-width: 100%; 
+  padding: 8px 12px; 
+  font-size: 1rem; 
+}
+
+
+@media (min-width: 481px) and (max-width: 850px) {
+  .search-bar {
+    padding: 10px 15px;
+    font-size: 1.1rem;
+  }
+}

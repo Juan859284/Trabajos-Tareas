@@ -1,0 +1,90 @@
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  background-color: #f0f2f5;
+  border-bottom: 1px solid var(--border-color);
+  height: var(--header-height);
+}
+
+.back-button {
+  background: none;
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+  display: block;
+}
+
+.back-button svg {
+  color: var(--text-primary);
+}
+
+.avatar-container {
+  position: relative;
+  margin-right: 15px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.status-indicator {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.status-indicator.online {
+  background-color: var(--secondary-color);
+}
+
+.status-indicator.offline {
+  background-color: #ccc;
+}
+
+.chat-info {
+  flex: 1;
+}
+
+.chat-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.chat-status {
+  font-size: 0.8125rem;
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+.header-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.header-actions button {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 5px;
+}
+
+.header-actions button:hover {
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .back-button {
+    display: block;
+  }
+}
